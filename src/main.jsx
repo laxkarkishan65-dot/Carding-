@@ -4,8 +4,8 @@ import * as THREE from 'three';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
-import { products, site, materials } from './data/products';
-import './styles/global.css';
+import { products, site, materials } from './products';
+import './global.css';
 
 gsap.registerPlugin(ScrollTrigger);
 
